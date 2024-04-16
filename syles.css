@@ -1,6 +1,7 @@
 body {
-    background-color: #ffcccc; /* svetlo roza ozadje */
-    font-family: Arial, sans-serif;
+    background-image: url('lovecalculator.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
