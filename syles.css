@@ -1,38 +1,46 @@
-body {
-    background-image: url('lovecalculator.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    width: 80%;
-    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('lovecalculator.png');
+    background-size: cover;
+}
+
+h1 {
+    color: pink;
     text-align: center;
 }
 
-input[type="text"] {
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #ff0000; /* rdeča barva za gumb */
-    color: white;
+    background-color: pink;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #cc0000; /* temnejša rdeča barva za gumb ob prehodu */
 }
 
 #result {
     margin-top: 20px;
-    font-size: 24px;
-    color: #ff0000; /* rdeča barva za rezultat */
+    font-size: 18px;
+    color: pink;
 }
